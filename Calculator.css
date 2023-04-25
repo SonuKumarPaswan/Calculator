@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 320px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 1px;
+    background:linear-gradient(75deg ,rgb(220, 220, 233),rgb(35, 28, 220)) ;
+   
+}
+.calculator{
+    border: none;
+    border-radius: 10px;
+    box-shadow: -1px -1px 10px blue;
+    padding: 1px 10px 2px 10px;
+    background: linear-gradient(30deg, rgb(56, 217, 86)
+    , rgb(42, 162, 42));
+    
+    
+
+}
+input{
+    width: 100%;
+    height: 90px;
+    border: 1px rgb(35, 29, 29) solid;
+    margin: 10px;
+    padding: 1px 5px 2px 1px;
+    background-color: black;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    column-gap: 5px;
+    border-radius: 5px;
+    
+
+}
+input::placeholder{
+    color: aliceblue;
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin:5px;
+    border-radius: 40px;
+   font-size: 22px;
+   border: none;
+   background-color:rgb(231, 72, 72);
+   box-shadow: -4px 1px 10px  rgb(42, 41, 32);
+   text-shadow: -1px 2px 1px rgb(21, 21, 26);
+   cursor: pointer;
+   
+    
+}
+button ::hover {
+    background:linear-gradient(45deg, rgb(12, 191, 12),grey) ;
+    font-size: 10px;
+}
